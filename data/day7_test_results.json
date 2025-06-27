@@ -1,7 +1,7 @@
 [
   {
     "scenario": "STEM Major with Humanities Interest",
-    "timestamp": "2025-06-27T15:43:47.589901",
+    "timestamp": "2025-06-27T15:49:44.931118",
     "analysis": {
       "results": {
         "min_recommendations": true,
@@ -12,8 +12,8 @@
       "criteria_met": 3,
       "total_criteria": 4,
       "success_rate": 0.75,
-      "recommendations_count": 2,
-      "confidence": 0.75,
+      "recommendations_count": 3,
+      "confidence": 0.8,
       "validation_passed": true
     },
     "recommendations": [
@@ -21,55 +21,61 @@
         "course_id": "CS304",
         "title": "Artificial Intelligence",
         "match_score": 0.85,
-        "justification": "This course covers AI concepts, machine learning, neural networks, and expert systems, providing a technical foundation for AI ethics. It combines technical skills with ethical considerations, making it suitable for your interests."
+        "justification": "This course covers AI concepts, machine learning, neural networks, and expert systems, providing a technical foundation for AI ethics and responsible technology. It combines technical skills with theoretical foundations and practical applications."
       },
       {
         "course_id": "CS301",
         "title": "Machine Learning",
         "match_score": 0.8,
-        "justification": "Machine learning algorithms, neural networks, and deep learning applications are essential for AI development. This course offers technical skills in AI-related fields and aligns with your interest in responsible technology."
+        "justification": "Machine learning algorithms, neural networks, and deep learning applications are essential for understanding AI ethics and responsible technology. This course offers a deep dive into supervised and unsupervised learning."
+      },
+      {
+        "course_id": "CS401",
+        "title": "Advanced Algorithms",
+        "match_score": 0.75,
+        "justification": "Understanding advanced algorithmic techniques like dynamic programming and computational complexity theory is crucial for AI ethics and responsible technology. This course provides a strong foundation in algorithm design."
       }
     ],
-    "overall_confidence": 0.75,
+    "overall_confidence": 0.8,
     "validation_passed": true
   },
   {
     "scenario": "Missing Graduation Credits",
-    "timestamp": "2025-06-27T15:43:52.876257",
+    "timestamp": "2025-06-27T15:49:50.992428",
     "analysis": {
       "results": {
         "min_recommendations": false,
         "min_confidence": true,
-        "should_include_required": false,
+        "should_include_required": true,
         "should_consider_difficulty": false
       },
-      "criteria_met": 1,
+      "criteria_met": 2,
       "total_criteria": 4,
-      "success_rate": 0.25,
+      "success_rate": 0.5,
       "recommendations_count": 2,
-      "confidence": 0.75,
+      "confidence": 0.7,
       "validation_passed": true
     },
     "recommendations": [
       {
-        "course_id": "CS301",
-        "title": "Machine Learning",
+        "course_id": "CS201",
+        "title": "Data Structures and Algorithms",
         "match_score": 0.75,
-        "justification": "Database management systems, relational database design, SQL queries, normalization, indexing, and transaction management are essential skills for a senior student."
+        "justification": "Data Structures and Algorithms is a core requirement that builds on foundational concepts from CS101 and is essential for software engineering (CS306). It will provide you with the necessary skills for large-scale project management."
       },
       {
-        "course_id": "CS307",
-        "title": "Database Systems",
+        "course_id": "CS305",
+        "title": "Computer Networks",
         "match_score": 0.7,
-        "justification": "Machine learning algorithms, supervised and unsupervised learning, neural networks, and model evaluation techniques are valuable for a senior student's skill set."
+        "justification": "Computer Networks is a major elective that complements your software engineering knowledge from CS306. Understanding network protocols and security is crucial for modern software development."
       }
     ],
-    "overall_confidence": 0.75,
+    "overall_confidence": 0.7,
     "validation_passed": true
   },
   {
     "scenario": "Career Changer - Practical Focus",
-    "timestamp": "2025-06-27T15:44:00.476709",
+    "timestamp": "2025-06-27T15:49:56.709268",
     "analysis": {
       "results": {
         "min_recommendations": false,
@@ -81,7 +87,7 @@
       "total_criteria": 4,
       "success_rate": 0.75,
       "recommendations_count": 2,
-      "confidence": 0.8,
+      "confidence": 0.7,
       "validation_passed": true
     },
     "recommendations": [
@@ -89,21 +95,21 @@
         "course_id": "CS302",
         "title": "Web Development",
         "match_score": 0.85,
-        "justification": "This course covers full-stack web development using modern frameworks like HTML, CSS, JavaScript, React, Node.js, and database integration. It focuses on real-world applications and projects, making it ideal for gaining job-ready skills quickly."
+        "justification": "Full-stack web development course with modern frameworks like HTML, CSS, JavaScript, React, Node.js, and database integration. Practical skills for job readiness."
       },
       {
         "course_id": "CS306",
         "title": "Software Engineering",
         "match_score": 0.75,
-        "justification": "Software Engineering course provides knowledge on software development lifecycle methodologies, design patterns, testing strategies, agile development, and project management. These skills are highly sought after in the tech industry for job-readiness."
+        "justification": "Software development lifecycle methodologies, design patterns, testing strategies, version control systems, agile development, and project management. Valuable skills for tech industry transition."
       }
     ],
-    "overall_confidence": 0.8,
+    "overall_confidence": 0.7,
     "validation_passed": true
   },
   {
     "scenario": "High Achiever - Advanced Courses",
-    "timestamp": "2025-06-27T15:44:07.186195",
+    "timestamp": "2025-06-27T15:50:03.678162",
     "analysis": {
       "results": {
         "min_recommendations": true,
@@ -123,13 +129,13 @@
         "course_id": "CS401",
         "title": "Advanced Algorithms",
         "match_score": 0.85,
-        "justification": "This course covers advanced algorithmic techniques essential for graduate-level work in AI research. Topics include dynamic programming, graph algorithms, network flows, and computational complexity theory."
+        "justification": "This course covers advanced algorithmic techniques essential for AI research and graduate-level work. Topics include dynamic programming, graph algorithms, and computational complexity theory."
       },
       {
         "course_id": "CS304",
         "title": "Artificial Intelligence",
         "match_score": 0.8,
-        "justification": "This course delves into AI concepts such as search algorithms, knowledge representation, neural networks, and expert systems, providing a strong theoretical foundation for AI research and graduate studies."
+        "justification": "AI concepts covered in this course such as search algorithms, neural networks, and expert systems are crucial for theoretical understanding and research in AI. Practical applications are also explored."
       }
     ],
     "overall_confidence": 0.8,
@@ -137,7 +143,7 @@
   },
   {
     "scenario": "Learning Preferences - Visual/Practical",
-    "timestamp": "2025-06-27T15:44:11.923067",
+    "timestamp": "2025-06-27T15:50:09.205170",
     "analysis": {
       "results": {
         "min_recommendations": false,
@@ -149,7 +155,7 @@
       "total_criteria": 4,
       "success_rate": 0.75,
       "recommendations_count": 1,
-      "confidence": 0.7,
+      "confidence": 0.8,
       "validation_passed": true
     },
     "recommendations": [
@@ -157,10 +163,10 @@
         "course_id": "CS302",
         "title": "Web Development",
         "match_score": 0.85,
-        "justification": "This course focuses on full-stack web development with hands-on projects using modern frameworks like React and Node.js. It includes practical exercises and group work, making it suitable for visual and practical learners."
+        "justification": "This course focuses on full-stack web development with hands-on projects using modern frameworks like React and Node.js. It includes practical exercises and group work, making it ideal for visual and practical learners."
       }
     ],
-    "overall_confidence": 0.7,
+    "overall_confidence": 0.8,
     "validation_passed": true
   }
 ]
