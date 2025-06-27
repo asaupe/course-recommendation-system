@@ -1,0 +1,27 @@
+{
+  "Computer Science": {
+    "total_credits": 120,
+    "categories": {
+      "Core Requirements": {
+        "credits": 24,
+        "courses": ["CS101", "CS201", "CS202", "CS301", "CS401", "CS402"]
+      },
+      "Major Electives": {
+        "credits": 18,
+        "courses": ["CS301", "CS302", "CS303", "CS304", "CS305"]
+      },
+      "Math/Science": {
+        "credits": 20,
+        "courses": ["MATH201", "MATH202", "PHYS101", "PHYS102"]
+      },
+      "General Education": {
+        "credits": 30,
+        "courses": ["ENG101", "ENG102", "HIST101", "PHIL101"]
+      },
+      "Free Electives": {
+        "credits": 28,
+        "courses": []
+      }
+    }
+  }
+}

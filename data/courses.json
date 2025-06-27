@@ -1,0 +1,50 @@
+[
+  {
+    "code": "CS101",
+    "title": "Introduction to Computer Science",
+    "description": "Fundamental concepts of programming and computer science. Introduction to problem-solving, algorithm design, and programming in Python.",
+    "credits": 3,
+    "difficulty": 2,
+    "category": "Core Requirements",
+    "semester": "Fall/Spring",
+    "prerequisites": "None",
+    "instructor": "Dr. Smith",
+    "schedule": "MWF 10:00-11:00 AM"
+  },
+  {
+    "code": "CS201",
+    "title": "Data Structures and Algorithms",
+    "description": "Advanced data structures including arrays, linked lists, stacks, queues, trees, and graphs. Algorithm design and analysis.",
+    "credits": 4,
+    "difficulty": 4,
+    "category": "Core Requirements",
+    "semester": "Fall/Spring",
+    "prerequisites": "CS101",
+    "instructor": "Dr. Johnson",
+    "schedule": "TTh 2:00-3:30 PM"
+  },
+  {
+    "code": "CS301",
+    "title": "Machine Learning",
+    "description": "Introduction to machine learning algorithms, supervised and unsupervised learning, neural networks, and deep learning applications.",
+    "credits": 3,
+    "difficulty": 4,
+    "category": "Major Electives",
+    "semester": "Fall/Spring",
+    "prerequisites": "CS201, MATH201",
+    "instructor": "Dr. Chen",
+    "schedule": "MWF 1:00-2:00 PM"
+  },
+  {
+    "code": "CS302",
+    "title": "Web Development",
+    "description": "Full-stack web development using modern frameworks. HTML, CSS, JavaScript, React, Node.js, and database integration.",
+    "credits": 3,
+    "difficulty": 3,
+    "category": "Major Electives",
+    "semester": "Fall/Spring",
+    "prerequisites": "CS101",
+    "instructor": "Prof. Garcia",
+    "schedule": "TTh 11:00-12:30 PM"
+  }
+]
