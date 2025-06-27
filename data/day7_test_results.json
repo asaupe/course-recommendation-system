@@ -1,0 +1,166 @@
+[
+  {
+    "scenario": "STEM Major with Humanities Interest",
+    "timestamp": "2025-06-27T15:43:47.589901",
+    "analysis": {
+      "results": {
+        "min_recommendations": true,
+        "min_confidence": true,
+        "should_mention_ethics": true,
+        "should_consider_graduation": false
+      },
+      "criteria_met": 3,
+      "total_criteria": 4,
+      "success_rate": 0.75,
+      "recommendations_count": 2,
+      "confidence": 0.75,
+      "validation_passed": true
+    },
+    "recommendations": [
+      {
+        "course_id": "CS304",
+        "title": "Artificial Intelligence",
+        "match_score": 0.85,
+        "justification": "This course covers AI concepts, machine learning, neural networks, and expert systems, providing a technical foundation for AI ethics. It combines technical skills with ethical considerations, making it suitable for your interests."
+      },
+      {
+        "course_id": "CS301",
+        "title": "Machine Learning",
+        "match_score": 0.8,
+        "justification": "Machine learning algorithms, neural networks, and deep learning applications are essential for AI development. This course offers technical skills in AI-related fields and aligns with your interest in responsible technology."
+      }
+    ],
+    "overall_confidence": 0.75,
+    "validation_passed": true
+  },
+  {
+    "scenario": "Missing Graduation Credits",
+    "timestamp": "2025-06-27T15:43:52.876257",
+    "analysis": {
+      "results": {
+        "min_recommendations": false,
+        "min_confidence": true,
+        "should_include_required": false,
+        "should_consider_difficulty": false
+      },
+      "criteria_met": 1,
+      "total_criteria": 4,
+      "success_rate": 0.25,
+      "recommendations_count": 2,
+      "confidence": 0.75,
+      "validation_passed": true
+    },
+    "recommendations": [
+      {
+        "course_id": "CS301",
+        "title": "Machine Learning",
+        "match_score": 0.75,
+        "justification": "Database management systems, relational database design, SQL queries, normalization, indexing, and transaction management are essential skills for a senior student."
+      },
+      {
+        "course_id": "CS307",
+        "title": "Database Systems",
+        "match_score": 0.7,
+        "justification": "Machine learning algorithms, supervised and unsupervised learning, neural networks, and model evaluation techniques are valuable for a senior student's skill set."
+      }
+    ],
+    "overall_confidence": 0.75,
+    "validation_passed": true
+  },
+  {
+    "scenario": "Career Changer - Practical Focus",
+    "timestamp": "2025-06-27T15:44:00.476709",
+    "analysis": {
+      "results": {
+        "min_recommendations": false,
+        "min_confidence": true,
+        "should_emphasize_practical": true,
+        "should_mention_web_dev": true
+      },
+      "criteria_met": 3,
+      "total_criteria": 4,
+      "success_rate": 0.75,
+      "recommendations_count": 2,
+      "confidence": 0.8,
+      "validation_passed": true
+    },
+    "recommendations": [
+      {
+        "course_id": "CS302",
+        "title": "Web Development",
+        "match_score": 0.85,
+        "justification": "This course covers full-stack web development using modern frameworks like HTML, CSS, JavaScript, React, Node.js, and database integration. It focuses on real-world applications and projects, making it ideal for gaining job-ready skills quickly."
+      },
+      {
+        "course_id": "CS306",
+        "title": "Software Engineering",
+        "match_score": 0.75,
+        "justification": "Software Engineering course provides knowledge on software development lifecycle methodologies, design patterns, testing strategies, agile development, and project management. These skills are highly sought after in the tech industry for job-readiness."
+      }
+    ],
+    "overall_confidence": 0.8,
+    "validation_passed": true
+  },
+  {
+    "scenario": "High Achiever - Advanced Courses",
+    "timestamp": "2025-06-27T15:44:07.186195",
+    "analysis": {
+      "results": {
+        "min_recommendations": true,
+        "min_confidence": true,
+        "should_recommend_advanced": true,
+        "should_mention_research": true
+      },
+      "criteria_met": 4,
+      "total_criteria": 4,
+      "success_rate": 1.0,
+      "recommendations_count": 2,
+      "confidence": 0.8,
+      "validation_passed": true
+    },
+    "recommendations": [
+      {
+        "course_id": "CS401",
+        "title": "Advanced Algorithms",
+        "match_score": 0.85,
+        "justification": "This course covers advanced algorithmic techniques essential for graduate-level work in AI research. Topics include dynamic programming, graph algorithms, network flows, and computational complexity theory."
+      },
+      {
+        "course_id": "CS304",
+        "title": "Artificial Intelligence",
+        "match_score": 0.8,
+        "justification": "This course delves into AI concepts such as search algorithms, knowledge representation, neural networks, and expert systems, providing a strong theoretical foundation for AI research and graduate studies."
+      }
+    ],
+    "overall_confidence": 0.8,
+    "validation_passed": true
+  },
+  {
+    "scenario": "Learning Preferences - Visual/Practical",
+    "timestamp": "2025-06-27T15:44:11.923067",
+    "analysis": {
+      "results": {
+        "min_recommendations": false,
+        "min_confidence": true,
+        "should_emphasize_practical": true,
+        "should_avoid_heavy_math": true
+      },
+      "criteria_met": 3,
+      "total_criteria": 4,
+      "success_rate": 0.75,
+      "recommendations_count": 1,
+      "confidence": 0.7,
+      "validation_passed": true
+    },
+    "recommendations": [
+      {
+        "course_id": "CS302",
+        "title": "Web Development",
+        "match_score": 0.85,
+        "justification": "This course focuses on full-stack web development with hands-on projects using modern frameworks like React and Node.js. It includes practical exercises and group work, making it suitable for visual and practical learners."
+      }
+    ],
+    "overall_confidence": 0.7,
+    "validation_passed": true
+  }
+]
