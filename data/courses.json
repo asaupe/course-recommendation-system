@@ -46,5 +46,65 @@
     "prerequisites": "CS101",
     "instructor": "Prof. Garcia",
     "schedule": "TTh 11:00-12:30 PM"
+  },
+  {
+    "code": "CS304",
+    "title": "Artificial Intelligence",
+    "description": "Introduction to AI concepts including search algorithms, knowledge representation, machine learning fundamentals, neural networks, and expert systems. Covers both theoretical foundations and practical applications.",
+    "credits": 3,
+    "difficulty": 4,
+    "category": "Major Electives",
+    "semester": "Fall",
+    "prerequisites": "CS201, MATH202"
+  },
+  {
+    "code": "CS305",
+    "title": "Computer Networks",
+    "description": "Comprehensive study of computer network protocols, TCP/IP stack, routing algorithms, network security, wireless networks, and distributed systems fundamentals.",
+    "credits": 3,
+    "difficulty": 3,
+    "category": "Major Electives",
+    "semester": "Spring",
+    "prerequisites": "CS201"
+  },
+  {
+    "code": "CS306",
+    "title": "Software Engineering",
+    "description": "Software development lifecycle methodologies, design patterns, testing strategies, version control systems, agile development, and large-scale project management.",
+    "credits": 4,
+    "difficulty": 3,
+    "category": "Core Requirements",
+    "semester": "Fall/Spring",
+    "prerequisites": "CS201"
+  },
+  {
+    "code": "CS401",
+    "title": "Advanced Algorithms",
+    "description": "Advanced algorithmic techniques including dynamic programming, graph algorithms, network flows, linear programming, approximation algorithms, and computational complexity theory.",
+    "credits": 3,
+    "difficulty": 5,
+    "category": "Core Requirements",
+    "semester": "Spring",
+    "prerequisites": "CS201, MATH301"
+  },
+  {
+    "code": "MATH301",
+    "title": "Linear Algebra",
+    "description": "Vector spaces, linear transformations, matrices, eigenvalues and eigenvectors, orthogonality, and applications to computer science including graphics and machine learning.",
+    "credits": 3,
+    "difficulty": 4,
+    "category": "Math/Science",
+    "semester": "Fall/Spring",
+    "prerequisites": "MATH201"
+  },
+  {
+    "code": "CS307",
+    "title": "Database Systems",
+    "description": "Database design principles, relational model, SQL, normalization, transaction processing, concurrency control, distributed databases, and NoSQL systems.",
+    "credits": 3,
+    "difficulty": 3,
+    "category": "Major Electives",
+    "semester": "Fall/Spring",
+    "prerequisites": "CS201"
   }
 ]
