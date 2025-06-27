@@ -438,3 +438,52 @@ class DataManager:
                 }
             }
         }
+
+
+# Convenience functions for standalone usage
+def load_courses(file_path: str = "data/courses.json") -> List[Dict[str, Any]]:
+    """
+    Load courses from JSON file (standalone function).
+    
+    Args:
+        file_path: Path to courses JSON file
+        
+    Returns:
+        List of course dictionaries
+    """
+    try:
+        with open(file_path, 'r') as f:
+            courses = json.load(f)
+        logger.info(f"Loaded {len(courses)} courses from {file_path}")
+        return courses
+    except FileNotFoundError:
+        logger.error(f"Courses file not found: {file_path}")
+        return []
+    except json.JSONDecodeError as e:
+        logger.error(f"Error parsing courses JSON: {e}")
+        return []
+    except Exception as e:
+        logger.error(f"Error loading courses: {e}")
+        return []
+
+
+def save_courses(courses: List[Dict[str, Any]], file_path: str = "data/courses.json") -> bool:
+    """
+    Save courses to JSON file (standalone function).
+    
+    Args:
+        courses: List of course dictionaries
+        file_path: Path to save courses JSON file
+        
+    Returns:
+        True if successful, False otherwise
+    """
+    try:
+        os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        with open(file_path, 'w') as f:
+            json.dump(courses, f, indent=2)
+        logger.info(f"Saved {len(courses)} courses to {file_path}")
+        return True
+    except Exception as e:
+        logger.error(f"Error saving courses: {e}")
+        return False
